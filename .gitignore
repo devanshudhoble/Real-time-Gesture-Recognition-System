@@ -1,0 +1,45 @@
+# .gitignore for Gesture Recognition project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model artifacts (generated, can be reproduced)
+models/*.pth
+models/*.onnx
+models/*.png
+models/*.json
+models/*.txt
+models/*.npy
+
+# Data artifacts (generated)
+data/*.npy
+data/*.json
+data/collected/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log

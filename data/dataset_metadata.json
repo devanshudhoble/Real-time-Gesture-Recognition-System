@@ -1,0 +1,17 @@
+{
+  "num_samples": 7200,
+  "feature_dim": 78,
+  "num_classes": 9,
+  "classes": [
+    "point_left",
+    "point_right",
+    "point_up",
+    "point_down",
+    "open_palm",
+    "thumbs_up",
+    "thumbs_down",
+    "pinch",
+    "wave"
+  ],
+  "samples_per_gesture": 800
+}

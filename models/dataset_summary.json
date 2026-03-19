@@ -1,0 +1,57 @@
+{
+  "dataset_dir": "C:\\Users\\devan\\Downloads\\gesture--feature-POC-1 (1)\\gesture--feature-POC-1\\data",
+  "num_samples": 7200,
+  "feature_dim": 78,
+  "seed": 42,
+  "splits": {
+    "train": 5040,
+    "val": 1080,
+    "test": 1080
+  },
+  "class_distribution": {
+    "full": {
+      "point_left": 800,
+      "point_right": 800,
+      "point_up": 800,
+      "point_down": 800,
+      "open_palm": 800,
+      "thumbs_up": 800,
+      "thumbs_down": 800,
+      "pinch": 800,
+      "wave": 800
+    },
+    "train": {
+      "point_left": 560,
+      "point_right": 560,
+      "point_up": 560,
+      "point_down": 560,
+      "open_palm": 560,
+      "thumbs_up": 560,
+      "thumbs_down": 560,
+      "pinch": 560,
+      "wave": 560
+    },
+    "val": {
+      "point_left": 120,
+      "point_right": 120,
+      "point_up": 120,
+      "point_down": 120,
+      "open_palm": 120,
+      "thumbs_up": 120,
+      "thumbs_down": 120,
+      "pinch": 120,
+      "wave": 120
+    },
+    "test": {
+      "point_left": 120,
+      "point_right": 120,
+      "point_up": 120,
+      "point_down": 120,
+      "open_palm": 120,
+      "thumbs_up": 120,
+      "thumbs_down": 120,
+      "pinch": 120,
+      "wave": 120
+    }
+  }
+}
